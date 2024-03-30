@@ -1,0 +1,11 @@
+#High score without min or max functions 
+# Input a list of student scores
+student_scores = input().split()
+for n in range(0, len(student_scores)):
+  student_scores[n] = int(student_scores[n])
+
+high_scr = 0
+for score in student_scores:
+  if score > high_scr:
+    high_scr = score
+print(f"The highest score in the class is: {high_scr}")
