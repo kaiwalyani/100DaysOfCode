@@ -20,7 +20,7 @@ turtle-cross-game/
 
 ├── main.py              # Main game script
 
-├── turtle.py             # Turtle player class
+├── player.py             # Turtle player class
 
 ├── car_manager.py         # Car manager class for handling traffic
 
