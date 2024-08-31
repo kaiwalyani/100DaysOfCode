@@ -72,7 +72,7 @@ web_entry.grid(row=1,column=1, columnspan=2)
 web_entry.focus()
 email_entry = Entry(width=42)
 email_entry.grid(row=2,column=1,columnspan=2)
-email_entry.insert(0, "kaiwalyani@gmail.com")
+email_entry.insert(0, "me@gmail.com")
 pass_entry = Entry(width=24)
 pass_entry.grid(row=3,column=1)
 
